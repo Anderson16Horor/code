@@ -125,7 +125,7 @@ try:
         mailbox_field.clear()
 
         # Save data to the list
-        mailbox_data.append({"Mailbox Name": mailbox_name, "Password": mailbox_password})
+        mailbox_data.append({"Mailbox": mailbox_name, "Password": mailbox_password})
 
     # Save mailbox data to an Excel file
     df = pd.DataFrame(mailbox_data)
